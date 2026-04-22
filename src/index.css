@@ -89,3 +89,32 @@
   color: hsl(0, 0%, 45%);
   cursor: pointer;
 }
+
+/* Counter */
+.counter-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.count-display {
+  font-size: 8em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-btn {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(188, 45%, 47%);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.counter-btn:hover {
+  background-color: hsl(188, 45%, 80%);
+  color: #625d5d;
+  transition: background-color 1s ease, color 1s ease;
+}
