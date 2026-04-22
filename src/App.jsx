@@ -4,10 +4,11 @@
 // import Students from "./Students";
 // import UserGreeting from "./UserGreeting";
 // import List from "./List";
-import Counter from "./Counter";
+// import Counter from "./Counter";
+import NewComponent from "./NewComponent";
 // import MyComponent from "./myComponent";
 function App() {
-  return <Counter></Counter>;
+  return <NewComponent></NewComponent>;
 }
 
 export default App;
@@ -31,3 +32,7 @@ export default App;
 // if starts with {use...} its most likely hook
 // useState() = react hook that allows creation of stateful var
 // & setter f(x) to update its value in virtual DOM [name, setName]
+
+// onChange - event handler, used for forms mostly
+// <input> <textarea> <select> elements
+// Triggers f(x) when value of input changes
