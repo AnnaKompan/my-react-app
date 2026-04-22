@@ -2,7 +2,12 @@ import React, { useState } from "react";
 function Counter() {
   const [count, setCount] = useState(0);
   const increment = () => {
-    setCount(count + 1);
+    setCount((c) => c + 1);
+    setCount((c) => c + 1);
+    setCount((c) => c + 1);
+    // setCount(count + 1); add 1, even if copy f(x)
+    // takes pnding state to calc next state
+    // call all f(x) in order, updater puts them in queue
   };
   const decrement = () => {
     setCount(count - 1);
@@ -20,7 +25,7 @@ function Counter() {
         Reset
       </button>
       <button className="counter-btn" onClick={increment}>
-        Increment
+        Increment+3
       </button>
     </div>
   );

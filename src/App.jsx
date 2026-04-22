@@ -7,9 +7,12 @@
 // import Counter from "./Counter";
 // import NewComponent from "./NewComponent";
 // import MyComponent from "./myComponent";
-import ColorPicker from "./ColorPicker";
+// import ColorPicker from "./ColorPicker";
+// import Component from "./Component";
+import Comp from "./Comp";
+// import NewNewComponent from "./NewNewComponent";
 function App() {
-  return <ColorPicker></ColorPicker>;
+  return <Comp></Comp>;
 }
 
 export default App;
@@ -37,3 +40,7 @@ export default App;
 // onChange - event handler, used for forms mostly
 // <input> <textarea> <select> elements
 // onChange Triggers f(x) when value of input changes
+
+// Updater Function - f(x) passed as argument in setState()
+// allows safe update based on prev state
+// used with multiple state updates async f(x)
