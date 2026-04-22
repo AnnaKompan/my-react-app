@@ -5,10 +5,11 @@
 // import UserGreeting from "./UserGreeting";
 // import List from "./List";
 // import Counter from "./Counter";
-import NewComponent from "./NewComponent";
+// import NewComponent from "./NewComponent";
 // import MyComponent from "./myComponent";
+import ColorPicker from "./ColorPicker";
 function App() {
-  return <NewComponent></NewComponent>;
+  return <ColorPicker></ColorPicker>;
 }
 
 export default App;
@@ -35,4 +36,4 @@ export default App;
 
 // onChange - event handler, used for forms mostly
 // <input> <textarea> <select> elements
-// Triggers f(x) when value of input changes
+// onChange Triggers f(x) when value of input changes

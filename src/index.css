@@ -1,3 +1,6 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .card__img {
   max-width: 80%;
   height: auto;
@@ -117,4 +120,47 @@
   background-color: hsl(188, 45%, 80%);
   color: #625d5d;
   transition: background-color 1s ease, color 1s ease;
+}
+
+/* COLOR PICKER */
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin: 50px;
+  font-size: 3em;
+}
+
+.color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 90%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.5 ease;
+}
+
+.color-display p {
+  color: hsl(0, 0%, 20%);
+  font-size: 1.8rem;
+  text-align: center;
+}
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="color"] {
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
 }
